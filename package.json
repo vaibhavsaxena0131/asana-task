@@ -1,0 +1,24 @@
+{
+    "name": "asana-integration",
+    "version": "1.0.0",
+    "description": "Asana OAuth2 integration with tasks and webhooks",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "keywords": [],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.3",
+        "morgan": "^1.10.0",
+        "qs": "^6.14.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
